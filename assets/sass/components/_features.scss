@@ -14,11 +14,51 @@
 		background: _palette(border-bg);
 		margin: 0 0 _size(element-margin) 0;
 
-		section {
-			@include padding(3em, 3em, (0.5em, 0, 0, 4em));
+		 section {
 			width: 50%;
 			border-top: solid 1px _palette(border);
 			position: relative;
+			
+			
+			&:nth-child(1) {
+				background-image: url(../../../images/Projects/BeFit.jpg) ;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+				height: 300px;
+				a {
+					display: block;
+					color:red;
+					background-color: black;
+					width: auto;
+					min-height: 100%;
+					opacity: 0;
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
+
+			&:nth-child(2) {
+				background-image: url(../../../images/Projects/SleepTracker.jpg) ;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+				height: 300px;
+				a {
+					display: block;
+					color:red;
+					background-color: black;
+					width: auto;
+					min-height: 100%;
+					opacity: 0;
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
 
 			&:nth-child(-n + 2) {
 				border-top-width: 0;
