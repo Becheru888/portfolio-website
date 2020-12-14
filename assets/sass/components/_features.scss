@@ -142,6 +142,31 @@
       }
     }
 
+    &:nth-child(6) {
+      background-image: url(../../../images/Projects/BtcFarmer.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 300px;
+      a {
+        font-size: 2.5em;
+        padding: 100px;
+        text-align: center;
+        display: block;
+        color: red;
+        background-color: black;
+        width: auto;
+        min-height: 100%;
+        opacity: 0;
+
+        transition: opacity 0.5s;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
     &:nth-child(-n + 2) {
       border-top-width: 0;
     }
