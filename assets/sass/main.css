@@ -1849,7 +1849,7 @@ button:hover:active:after,
   opacity: 0.8;
 }
 
-.features section:nth-child(3) {
+.features section:nth-child(6) {
   background-image: url(../../../images/Projects/InstaClone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1857,7 +1857,7 @@ button:hover:active:after,
   height: 300px;
 }
 
-.features section:nth-child(3) a {
+.features section:nth-child(6) a {
   font-size: 2.5em;
   padding: 100px;
   text-align: center;
@@ -1871,7 +1871,7 @@ button:hover:active:after,
   transition: opacity 0.5s;
 }
 
-.features section:nth-child(3) a:hover {
+.features section:nth-child(6) a:hover {
   opacity: 0.8;
 }
 
@@ -1927,7 +1927,7 @@ button:hover:active:after,
   opacity: 0.8;
 }
 
-.features section:nth-child(6) {
+.features section:nth-child(3) {
   background-image: url(../../../images/Projects/BtcFarmer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1935,7 +1935,7 @@ button:hover:active:after,
   height: 300px;
 }
 
-.features section:nth-child(6) a {
+.features section:nth-child(3) a {
   font-size: 2.5em;
   padding: 100px;
   text-align: center;
@@ -1949,7 +1949,7 @@ button:hover:active:after,
   transition: opacity 0.5s;
 }
 
-.features section:nth-child(6) a:hover {
+.features section:nth-child(3) a:hover {
   opacity: 0.8;
 }
 
